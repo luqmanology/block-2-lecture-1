@@ -1,0 +1,49 @@
+h1 {
+    border: black solid 1px;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+font-family: Arial, Helvetica, sans-serif;
+color: yellow;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:oblique;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.three-d {
+margin: 5px 10px 15px 20px;
+background-color: darkcyan;
+border: black 10px outset;
+letter-spacing: 0.2cm;
+word-spacing: 1cm;
+}
+
+
+p.quotation {
+font-style: italic;
+}
+
+p.quotation em {
+    font-style: normal;
+}
+
+.big-first-letter::first-letter {
+    font-size: xx-large;
+}
+
+p.big-first-letter:hover {
+    color: red;
+}
+
